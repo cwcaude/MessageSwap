@@ -10,3 +10,5 @@ Message Swap allows you to customize the *"Messages"* text at the top of your Me
 # Update Notes
 
 **V1.0** : Initial Release of the tweak. Current functionality allows for a Custom value to be set for this text and to Enable/Disable the tweak
+
+**V1.0.1** : Updated the tweak to change the default non-custom text to *MessageSwap*. 

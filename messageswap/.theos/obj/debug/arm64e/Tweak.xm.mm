@@ -46,7 +46,7 @@ static void (*_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$)(_
 			_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(self, _cmd, GetPrefString(@"displayText"));
 		}
 		else {
-			_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(self, _cmd, @"Intel");
+			_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(self, _cmd, @"MessageSwap");
 		}
 	}
 	else {

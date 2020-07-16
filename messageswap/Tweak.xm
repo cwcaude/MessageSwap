@@ -20,7 +20,7 @@ NSString* GetPrefString (NSString *key)
 			%orig(GetPrefString(@"displayText"));
 		}
 		else {
-			%orig(@"Intel");
+			%orig(@"MessageSwap");
 		}
 	}
 	else {

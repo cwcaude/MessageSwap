@@ -33,7 +33,7 @@ NSString* GetPrefString (NSString *key)
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class _UINavigationBarLargeTitleView; @class _UINavigationBarContentView; 
+@class _UINavigationBarContentView; @class _UINavigationBarLargeTitleView; 
 static void (*_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$)(_LOGOS_SELF_TYPE_NORMAL _UINavigationBarLargeTitleView* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(_LOGOS_SELF_TYPE_NORMAL _UINavigationBarLargeTitleView* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$_ungrouped$_UINavigationBarContentView$setTitle$)(_LOGOS_SELF_TYPE_NORMAL _UINavigationBarContentView* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$_UINavigationBarContentView$setTitle$(_LOGOS_SELF_TYPE_NORMAL _UINavigationBarContentView* _LOGOS_SELF_CONST, SEL, id); 
 
 #line 14 "Tweak.xm"
@@ -46,7 +46,7 @@ static void (*_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$)(_
 			_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(self, _cmd, GetPrefString(@"displayText"));
 		}
 		else {
-			_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(self, _cmd, @"Intel");
+			_logos_orig$_ungrouped$_UINavigationBarLargeTitleView$setTitle$(self, _cmd, @"MessageSwap");
 		}
 	}
 	else {
