@@ -1,0 +1,9 @@
+Package: com.ziegen.messageswap
+Name: MessageSwap
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Allows customization of the "Messages" text of the top of the Messages app. 
+Maintainer: Clay "Ziegen" Caudell <caudellclay@gmail.com>
+Author: Clay "Ziegen" Caudell <caudellclay@gmail.com>
+Section: Tweaks
